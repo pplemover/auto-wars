@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./ExpenseForm.css"
 
 export class ExpenseForm extends Component {
   render() {
@@ -6,7 +7,12 @@ export class ExpenseForm extends Component {
       <form>
         <div className='form-center'>
           <div className='form-group'>
-            
+              <label htmlFor='charge'>지출 항목</label>
+              <input type="text" className='form-control' id="charge" name="charge" placeholder="예) 렌트비"/>
+          </div>
+          <div className='form-group'>
+              <label htmlFor='charge'>비용</label>
+              <input type="number" className='form-control' id="amount" name="amout" placeholder="예) 100"/>
           </div>
         </div>
 
