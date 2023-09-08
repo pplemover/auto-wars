@@ -9,7 +9,7 @@ class App extends Component {
         <h1>예산 계산기</h1>
 
         <div style={{width: '100%', backgroundColor: 'white', padding: '1rem'}}>
-          {/* Expense Form */}
+          <ExpenseForm />
         </div>
 
         <div style={{width: '100%', backgroundColor: 'white', padding: '1rem'}}>
